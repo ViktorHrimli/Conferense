@@ -1,0 +1,15 @@
+%display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%font-size {
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+}
+
+%animate {
+    transition: transform 500ms, color 500ms;
+}

@@ -1,0 +1,20 @@
+.btn {
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 23px;
+
+  min-width: 176px;
+  background: $backgraund-button-color;
+  border-radius: 4px;
+  padding: 10px 18px;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 500ms, background 500ms, border-radius 500ms;
+
+  &:hover,
+  &:focus {
+    background-color: $btn-hover;
+    border-radius: 16px;
+  }
+}

@@ -1,0 +1,98 @@
+.spekers {
+  padding: 20px 0 20px;
+}
+
+.speakers__conteiner {
+  padding-left: 20px;
+  padding-right: 20px;
+  @extend %display-flex;
+  flex-direction: column;
+}
+
+.head__text {
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+.spekers__list {
+  display: flex;
+  position: relative;
+}
+
+.spekers__tabs--list {
+  @extend %display-flex;
+  margin-top: 80px;
+  margin-bottom: 15px;
+
+}
+
+.tabs--ithem {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #757679;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.tabs--ithem:hover,
+.tabs--ithem:focus {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fe2198;
+}
+
+.tabs--ithem:first-child {
+  margin-left: 0;
+}
+
+.curent {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fe2198;
+}
+
+.spekers__icon {
+  position: absolute;
+  top: -200px;
+  right: -8px;
+}
+
+.spekers__ithem {
+  margin-top: 175px;
+  margin-left: 120px;
+}
+
+.spekers__ithem:first-child {
+  margin-left: 0px;
+}
+
+.spekers__ithem:nth-child(2n) {
+  margin-top: 235px;
+}
+
+.spekers__team {
+  position: relative;
+}
+
+.spekers__name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  margin-top: 18px;
+  margin-bottom: 7px;
+  color: $text-color;
+}
+
+.spekers__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+
+  color: $shadow--color;
+}

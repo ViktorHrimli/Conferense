@@ -1,0 +1,25 @@
+.section-header {
+  padding: 18px 32px;
+}
+
+.head-conteiner {
+  @extend %display-flex;
+  justify-content: space-between;
+}
+
+.list-conteiner {
+  display: inline-flex;
+}
+
+.link-ithems:hover,
+.link-ithems:focus {
+  @include hover(color);
+}
+
+.list-items {
+  margin-right: 71px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}

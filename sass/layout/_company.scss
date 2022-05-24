@@ -1,0 +1,25 @@
+.organizer {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 34px 40px 39px;
+
+    .organizer__list {
+        margin-top: 75px;
+        @extend %display-flex
+    }
+
+    .organizer__ithem {
+        align-items: center;
+        justify-content: center;
+
+
+        margin-left: 60px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+
+
+    }
+}

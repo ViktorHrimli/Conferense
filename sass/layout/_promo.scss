@@ -1,0 +1,48 @@
+.conteiner-promo {
+  @extend %display-flex;
+  flex-direction: column;
+  padding-bottom: 35px;
+}
+
+.icon-use {
+  cursor: pointer;
+}
+
+.text-promo {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 25px;
+  color: $text-color;
+}
+
+.promo__list--text {
+  margin-top: 29px;
+  margin-bottom: 21px;
+  text-align: center;
+}
+
+.promo__list--text:first-child {
+  margin-bottom: 75px;
+}
+
+.icons-down {
+  display: inline-block;
+  width: 100px;
+  height: 45px;
+  border: none;
+}
+
+.img-left {
+  position: absolute;
+  top: 30px;
+
+  z-index: 0;
+}
+
+.img-right {
+  position: absolute;
+  top: 30px;
+  right: 0;
+
+  z-index: 0;
+}

@@ -1,0 +1,4 @@
+@mixin hover($color) {
+    color: $link-hover;
+    transition: transform 500ms, color 500ms;
+}

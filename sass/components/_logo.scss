@@ -1,0 +1,28 @@
+.logo {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 20px;
+  max-width: 176px;
+  margin: right 32px;
+  &:hover {
+      color: #ffffff;
+  
+    }
+}
+
+.logo-design {
+  color: #ffffff;
+  background: linear-gradient(180deg, #FFFFFF 54.69%, rgba(255, 255, 255, 0.31) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-decoration-color:  transparent;
+
+  
+
+  &--footer {
+    font-size: 25px;
+  }
+}
+
+

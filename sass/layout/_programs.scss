@@ -1,0 +1,106 @@
+.programs__conteiner {
+  padding: 68px 0 64px;
+  display: flex;
+  flex-direction: column;
+}
+
+.programs__head--date {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 74px;
+  margin-bottom: 14px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 240px;
+    height: 4px;
+    border: 3.71667px solid #fe2198;
+    filter: blur(0.929167px);
+    border-radius: 5px;
+    top: 54px;
+  }
+}
+
+.programs__ithem--date {
+  margin-left: 78px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+// Spekers //
+
+.programs__conteiner--spekers {
+  padding-left: 136px;
+  margin-top: 56px;
+}
+
+.programs__text {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: $text-color;
+}
+
+.curent__text {
+  color: $shadow--color--06;
+  font-size: 35px;
+}
+
+.programs__time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &--list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 57px;
+
+    &:first-child {
+      margin: 0;
+    }
+
+  }
+
+  &--text {
+    min-width: 135px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    color: $text-color;
+    margin-right: 42px;
+  }
+
+}
+
+.programs__conteiner--about {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 57px;
+  text-align: left;
+}
+
+.programs {
+  &__head--text {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 11px;
+    color: $text-color;
+    margin-bottom: 25px;
+
+  }
+
+  &__text--about {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: $text-color;
+  }
+}

@@ -1,0 +1,123 @@
+.form__section {
+    @extend %display-flex;
+    flex-direction: column;
+    padding: 25px 0 146px 0;
+}
+
+.form {
+    margin-top: 85px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    & label {
+
+        @extend %font-size;
+        font-weight: 500;
+        margin-bottom: 8px;
+        margin-top: 24px;
+
+
+    }
+
+    & input {
+        @extend %font-size;
+        min-width: 308px;
+        height: 44px;
+        padding: 22px 0 22px 16px;
+        background-color: #000;
+        border: 2px solid #fff;
+        border-radius: 4px;
+        outline: none;
+        font-weight: 600;
+
+
+
+    }
+
+}
+
+.form__imput:not(:placeholder-shown):valid:required {
+    border-color: green;
+}
+
+.form__imput:not(:placeholder-shown):invalid:required {
+    border-color: #FE2198;
+}
+
+.form__checkbox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.check__text {
+    display: flex;
+    position: relative;
+    font-size: 21px;
+    line-height: 25px;
+    align-items: center;
+    color: $text-color;
+    flex-direction: row-reverse;
+
+
+    &::before {
+        content: "";
+        height: 31px;
+        width: 68px;
+        border: 2px solid #FFFFFF;
+        border-radius: 30px;
+        margin-left: 53px;
+        transition: background 500ms;
+
+    }
+
+    &::after {
+        content: "";
+        height: 24px;
+        width: 24px;
+        border-radius: 50%;
+        background-color: $text-color;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        position: absolute;
+        left: 242px;
+        transition: transform 500ms;
+    }
+
+
+}
+
+.check__policy:checked+.check__text::after {
+    transform: translate(38px);
+
+
+}
+
+.check__policy:checked+.check__text::before {
+    background: #FE2198;
+
+}
+
+.form__btn {
+    padding: 11px 27px;
+    max-width: 280px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    align-items: center;
+    margin-top: 40px;
+    color: $text-color;
+}
+
+.form__picture--left {
+    position: absolute;
+    left: -486px;
+    top: -51px;
+}
+
+.form__picture--right {
+    position: absolute;
+    right: -486px;
+    top: -51px;
+}

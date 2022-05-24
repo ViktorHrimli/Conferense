@@ -1,0 +1,67 @@
+.icons {
+  padding-bottom: 74px;
+}
+
+.icons__conteiner {
+  @extend %display-flex;
+  justify-content: flex-start;
+}
+
+.conteiner-left-icons {
+  @extend %display-flex;
+  flex-direction: column;
+  margin-left: 135px;
+}
+
+.icons-left-center {
+  position: absolute;
+  top: -116px;
+  left: 210px;
+}
+
+.icons__text {
+  max-width: 195px;
+  margin-top: 45px;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  color: $text-color;
+}
+
+.icons__conteiner--centr {
+  @extend %display-flex;
+  flex-direction: column;
+
+  margin-left: 175px;
+}
+
+.icons__conteiner--centr .icons__text {
+  min-width: 279px;
+  margin-top: 35px;
+}
+
+.icons__conteiner--right {
+  position: relative;
+  @extend %display-flex;
+  flex-direction: column;
+  margin-left: 107px;
+}
+
+.icons__conteiner--right .icons__text {
+  min-width: 320px;
+  margin-top: 190px;
+}
+
+.icons__right {
+  position: absolute;
+  top: -51px;
+  left: 75px;
+  transform: rotate(-1deg);
+}
+
+.icons__right-2 {
+  position: absolute;
+  top: 17px;
+  left: 120px;
+}

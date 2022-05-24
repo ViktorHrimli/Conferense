@@ -1,0 +1,39 @@
+.hero {
+  font-size: 100px;
+  line-height: 1.15;
+  letter-spacing: 0.1em;
+  color: $text-color;
+  z-index: 2;
+}
+
+.section-hero {
+  padding: 18px 0 35px;
+}
+
+.conteiner-hero {
+  @extend %display-flex;
+  flex-direction: column;
+}
+
+.text-hero {
+  font-size: 43px;
+  line-height: 52px;
+  margin-bottom: 23px;
+  z-index: 2;
+}
+
+.hero-border {
+  @extend %display-flex;
+  flex-direction: column;
+}
+
+.hero-border::after {
+  content: '';
+  width: 293px;
+  height: 5px;
+  margin-top: 17px;
+  border: 3.76667px solid #33e9e9;
+  box-sizing: border-box;
+  filter: blur(0.941667px);
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}

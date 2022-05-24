@@ -1,0 +1,21 @@
+$backgraund-button-color: #fe2198;
+$text-color: #fff;
+$backgraund-color: #000000;
+$link-hover: #f73fa1;
+$btn-hover: #f45cad;
+$shadow--color: rgba(255, 255, 255, 0.7);
+$shadow--color--06: rgba(255, 255, 255, 0.6);
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
